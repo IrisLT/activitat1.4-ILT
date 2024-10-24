@@ -21,7 +21,7 @@
         {
             //vol un unic return
             bool HoraValida;
-            if h >= 24 || h < 0 || m > 59 || m < 0 || s > 59 || s < 0
+            if (h >= 24 || h < 0 || m > 59 || m < 0 || s > 59 || s < 0)
                 HoraValida = false;
             else
                 HoraValida = true;
